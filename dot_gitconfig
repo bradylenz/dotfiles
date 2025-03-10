@@ -1,0 +1,12 @@
+[user]
+	name = Brady Lenz
+	email = "30730494+bradylenz@users.noreply.github.com"
+	signingKey = 8B8E5A4E77ABF1EE
+[commit]
+	gpgSign = true
+[tag]
+	gpgSign = true
+[core]
+	editor = nvim
+[pull]
+	rebase = true
