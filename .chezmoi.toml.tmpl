@@ -1,0 +1,6 @@
+{{- $modes := list "personal" "work" -}}
+{{- $mode := promptChoiceOnce . "mode" "What type of machine are you on" $modes -}}
+
+[data]
+    mode = {{- $mode | quote -}}
+

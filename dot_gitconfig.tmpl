@@ -1,7 +1,9 @@
 [user]
 	name = Brady Lenz
 	email = "30730494+bradylenz@users.noreply.github.com"
+	{{- if eq .mode "personal" }}
 	signingKey = 8B8E5A4E77ABF1EE
+	{{- end }}
 [commit]
 	gpgSign = true
 [tag]
